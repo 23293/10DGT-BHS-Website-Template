@@ -44,11 +44,11 @@ nav li a{
 }
 
 nav li:hover{
-  background-color: orangered;
+  background-color: #211c30;
 }
 
 nav #active{
-  background-color: darkgreen;
+  background-color: #7d6cac;
 }
 
 /* Styling for the main section*/
