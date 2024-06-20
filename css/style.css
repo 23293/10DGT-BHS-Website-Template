@@ -1,5 +1,5 @@
 /* global styling*/
-html{
+html {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0rem 2rem;
   background-color: #2e3a57;
@@ -17,7 +17,7 @@ html{
 
 /*the navbar styling goes here*/
 /* nav bar */
-nav ul{
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -29,13 +29,13 @@ nav ul{
 }
 
 /* how the list of pages sits */
-nav ul li{
+nav ul li {
   display: inline-block;
   font-size: 1rem;
 }
 
 /* the nav text */
-nav li a{
+nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -43,17 +43,17 @@ nav li a{
   text-decoration: none;
 }
 
-nav li:hover{
+nav li:hover {
   background-color: #211c30;
 }
 
-nav #active{
+nav #active {
   background-color: #56428f;
 }
 
 /* Styling for the main section*/
 /* This is the line between the main section and footer */
-main{
+main {
   border-bottom: 3px solid;
   color: black;
 }
@@ -80,25 +80,26 @@ p {
 }
 
 /* Styling for the image container and the items inside it */
-.container{
-  display: flex; 
-  flex-wrap: wrap; 
-  align-items: center; 
-  justify-content: center; 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 /*Items for all the screenshots and pictures of your stuff*/
-.item{
-  box-shadow: 0 4px 8px 0 rgb(255, 255, 255,0.2);
+.item {
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255, 0.2);
   width: 20%;
   min-width: 8rem;
   margin: 0.5rem;
 }
- .item-info{
-   padding: 0.1rem;
-   text-align: center;
- }
 
-.item img{
+.item-info {
+  padding: 0.1rem;
+  text-align: center;
+}
+
+.item img {
   width: 100%;
 }
